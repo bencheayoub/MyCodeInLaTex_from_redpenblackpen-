@@ -35,7 +35,6 @@
     \item $\displaystyle \int \sec(x) \, dx$
     \item $\displaystyle \int \csc(x) \, dx$
     \item $\displaystyle \int \cos(\sqrt{x}) \, dx$
-    \item $\displaystyle \int \csc(x) \, dx$
     \item $\displaystyle \int \sqrt{x^2+4x+13} \, dx$
     \item $\displaystyle \int e^{2x}\cos(x) \, dx$
     \item $\displaystyle \int_{3}^{5} (x-3)^9 \, dx$
@@ -49,13 +48,11 @@
     \item $\displaystyle \int x^2(1+x^3)^{1/3} \, dx$
     \item $\displaystyle \int \sqrt{1-\sin(x)} \, dx$
     \item $\displaystyle \int \sqrt{1+\cos(x)} \, dx$
-    \item $\displaystyle \int \sqrt{1-\cos(x)} \, dx$
     \item $\displaystyle \int \sinh(x)^2 \, dx$
     \item $\displaystyle \int \sinh(x)^3 \, dx$
     \item $\displaystyle \int \frac{1}{\sqrt{x^2 + 1}} \, dx$
     \item $\displaystyle \int \ln(x + \sqrt{x^2 + 1}) \, dx$
     \item $\displaystyle \int \tanh(x) \, dx$
-    \item $\displaystyle \int \sec(x) \, dx$
     \item $\displaystyle \int \tanh^{-1}(x) \, dx$
     \item $\displaystyle \int \sqrt{\tanh(x)} \, dx$
     \item $\displaystyle \int \lfloor x \rfloor \, dx$
@@ -79,69 +76,40 @@
     \item $\displaystyle \int \sqrt{1+\cos(2x)} \, dx$
     \item $\displaystyle \int \frac{1}{1+\tan(x)} \, dx$
     \item $\displaystyle \int \frac{\sqrt{1- \ln(x)^2}}{x} \, dx$
-    \item $\displaystyle \int \frac{1}{\sqrt[3]{x} + 1} , dx$
-    \item $\displaystyle \int \frac{1}{\sqrt[3]{x + 1}} , dx$
-    \item $\displaystyle \int (\sin(x) + \cos(x))^2 , dx$
-    \item $\displaystyle \int 2x \ln(1 - x) , dx$
-    \item $\displaystyle \int \frac{1}{x(1 + \sin^2(\ln x))} , dx$
-    \item $\displaystyle \int \sqrt{\frac{1 - x}{1 + x}} , dx$
-    \item $\displaystyle \int x^{x / \ln x} , dx$
-    \item $\displaystyle \int \arcsin(\sqrt{x}) , dx$
-    \item $\displaystyle \int \arctan(x) , dx$
-    \item $\displaystyle \int_{0}^{5} f(x) , dx$, where $f(x)$ is a piecewise function
-    \item $\displaystyle \int \frac{\sin(1/x)}{x^3} , dx$
-    \item $\displaystyle \int \frac{x - 1}{x^4 - 1} , dx$
-    \item $\displaystyle \int \sqrt{1 + \left(x - \frac{1}{4x}\right)^2} , dx$
-    \item $\displaystyle \int \frac{e^{\tan(x)}}{1 - \sin^2(x)} , dx$
-    \item $\displaystyle \int \frac{\arctan(x)}{x^2} , dx$
-    \item $\displaystyle \int \frac{\arctan(x)}{1 + x^2} , dx$
-    \item $\displaystyle \int (\ln(x))^2 , dx$
-    \item $\displaystyle \int \frac{\sqrt{x^2 + 4}}{x^2} , dx$
-    \item $\displaystyle \int \frac{\sqrt{x + 4}}{x} , dx$
-    \item $\displaystyle \int \frac{\sin^3(x)}{\cos^3(x) + \sin^3(x)} , dx$
-    \item $\displaystyle \int \frac{x}{1 + x^4} , dx$
-    \item $\displaystyle \int e^{\sqrt{x}} , dx$
-    \item $\displaystyle \int \frac{1}{\csc^3(x)} , dx$
-    \item $\displaystyle \int \frac{\arcsin(x)}{\sqrt{1 - x^2}} , dx$
-    \item $\displaystyle \int \sqrt{1 + \sin(2x)} , dx$
-    \item $\displaystyle \int x^{1/4} , dx$
-    \item $\displaystyle \int \frac{1}{1 + e^x} , dx$
-    \item $\displaystyle \int \sqrt{1 + e^x} , dx$
-    \item $\displaystyle \int \frac{\sqrt{\tan(x)}}{\sin(2x)} , dx$
-    \item $\displaystyle \int \frac{1}{1 + \sin(x)} , dx$
-    \item $\displaystyle \int \left( \frac{\sin(x)}{x} + \ln(x) \cos(x) \right) , dx$
-    \item $\displaystyle \int \frac{1}{\cos(x)} , dx$
-    \item $\displaystyle \int \sin(x)^3/(\cos(x)^3 + \sin(x)^3) \, dx$
+    \item $\displaystyle \int \frac{1}{\sqrt[3]{x} + 1} \, dx$
+    \item $\displaystyle \int \frac{1}{\sqrt[3]{x + 1}} \, dx$
+    \item $\displaystyle \int (\sin(x) + \cos(x))^2 \, dx$
+    \item $\displaystyle \int 2x \ln(1 - x) \, dx$
+    \item $\displaystyle \int \frac{1}{x(1 + \sin^2(\ln x))} \, dx$
+    \item $\displaystyle \int \sqrt{\frac{1 - x}{1 + x}} \, dx$
+    \item $\displaystyle \int x^{x / \ln x} \, dx$
+    \item $\displaystyle \int \arcsin(\sqrt{x}) \, dx$
+    \item $\displaystyle \int \arctan(x) \, dx$
+    \item $\displaystyle \int_{0}^{5} f(x) \, dx$, where $f(x)$ is a piecewise function
+    \item $\displaystyle \int \frac{\sin(1/x)}{x^3} \, dx$
+    \item $\displaystyle \int \frac{x - 1}{x^4 - 1} \, dx$
+    \item $\displaystyle \int \sqrt{1 + \left(x - \frac{1}{4x}\right)^2} \, dx$
+    \item $\displaystyle \int \frac{e^{\tan(x)}}{1 - \sin^2(x)} \, dx$
+    \item $\displaystyle \int \frac{\arctan(x)}{x^2} \, dx$
+    \item $\displaystyle \int \frac{\arctan(x)}{1 + x^2} \, dx$
+    \item $\displaystyle \int (\ln(x))^2 \, dx$
+    \item $\displaystyle \int \frac{\sqrt{x^2 + 4}}{x^2} \, dx$
+    \item $\displaystyle \int \frac{\sqrt{x + 4}}{x} \, dx$
+    \item $\displaystyle \int \frac{\sin^3(x)}{\cos^3(x) + \sin^3(x)} \, dx$
     \item $\displaystyle \int \frac{x}{1 + x^4} \, dx$
     \item $\displaystyle \int e^{\sqrt{x}} \, dx$
-    \item $\displaystyle \int \frac{1}{\csc(x)^3} \, dx$
-    \item $\displaystyle \int \frac{\arcsin(x)}{\sqrt{1-x^2}} \, dx$
-    \item $\displaystyle \int \sqrt{1+\sin(2x)} \, dx$
+    \item $\displaystyle \int \frac{1}{\csc^3(x)} \, dx$
+    \item $\displaystyle \int \frac{\arcsin(x)}{\sqrt{1 - x^2}} \, dx$
+    \item $\displaystyle \int \sqrt{1 + \sin(2x)} \, dx$
     \item $\displaystyle \int x^{1/4} \, dx$
-    \item $\displaystyle \int \frac{1}{1+e^x} \, dx$
-    \item $\displaystyle \int \sqrt{1+e^x} \, dx$
+    \item $\displaystyle \int \frac{1}{1 + e^x} \, dx$
+    \item $\displaystyle \int \sqrt{1 + e^x} \, dx$
     \item $\displaystyle \int \frac{\sqrt{\tan(x)}}{\sin(2x)} \, dx$
-    \item $\displaystyle \int \frac{1}{1+\sin(x)} \, dx$
-    \item $\displaystyle \int \frac{\sin(x)}{x} + \ln(x)\cos(x) \, dx$
-    \item $\displaystyle \int \sin(x)^3/(\cos(x)^3 + \sin(x)^3) \, dx$
-    \item $\displaystyle \int \frac{x}{1 + x^4} \, dx$
-    \item $\displaystyle \int e^{\sqrt{x}} \, dx$
-    \item $\displaystyle \int \frac{1}{\csc(x)^3} \, dx$
-    \item $\displaystyle \int \frac{\arcsin(x)}{\sqrt{1-x^2}} \, dx$
-    \item $\displaystyle \int \sqrt{1+\sin(2x)} \, dx$
-    \item $\displaystyle \int x^{1/4} \, dx$
-    \item $\displaystyle \int \frac{1}{1+e^x} \, dx$
-    \item $\displaystyle \int \sqrt{1+e^x} \, dx$
-    \item $\displaystyle \int \frac{\sqrt{\tan(x)}}{\sin(2x)} \, dx$
-    \item $\displaystyle \int \frac{1}{1+\sin(x)} \, dx$
-    \item $\displaystyle \int \frac{\sin(x)}{x} + \ln(x)\cos(x) \, dx$
-    \item $\displaystyle \int \frac{1}{x(1+\sin(\ln(x))^2)} \, dx$
-    \item $\displaystyle \int \sqrt{\frac{1-x}{1+x}} \, dx$
-    \item $\displaystyle \int x^{x/\ln(x)} \, dx$
+    \item $\displaystyle \int \frac{1}{1 + \sin(x)} \, dx$
+    \item $\displaystyle \int \left( \frac{\sin(x)}{x} + \ln(x) \cos(x) \right) \, dx$
     \item $\displaystyle \int \sqrt{\tan(x)} \, dx$
     \item $\displaystyle \int \frac{x}{\sin(x)} \, dx$
     \item $\displaystyle \int \frac{\sqrt{1-\cos(x)}}{\sin(x)} \, dx$
-    \item $\displaystyle \int \frac{\sqrt{1+\cos(x)}}{\sin(x)} \, dx$
     \item $\displaystyle \int \frac{x\cos(x)}{\sin(x)} \, dx$
     \item $\displaystyle \int \frac{x\sin(x)}{\sqrt{1+\sin(x)}} \, dx$
     \item $\displaystyle \int \frac{x\sin(x)}{\sqrt{1-\sin(x)}} \, dx$
@@ -169,13 +137,167 @@
     \item $\displaystyle \int \frac{\cot(x)}{\cos(x)} \, dx$
     \item $\displaystyle \int \sin^2(x)\cot(x) \, dx$
     \item $\displaystyle \int \cos^2(x)\tan(x) \, dx$
-    \item $\displaystyle \int \sqrt{1+\sin(x)} \, dx$
-    \item $\displaystyle \int \sqrt{1-\sin(x)} \, dx$
-    \item $\displaystyle \int \sqrt{1+\cos(x)} \, dx$
-    \item $\displaystyle \int \sqrt{1-\cos(x)} \, dx$
-
 \end{enumerate}
 
+\end{multicols}
+
+\newpage
+
+\section*{MIT Integral Bee (1981-2009)}
+
+\begin{multicols}{2}
+\begin{enumerate}
+    \item[151.] $\displaystyle \int_0^1 \frac{x^4(1-x)^4}{1+x^2} \, dx$
+    \item[152.] $\displaystyle \int_0^\infty \sin(x^2) \, dx$
+    \item[153.] $\displaystyle \int_0^\infty \cos(x^2) \, dx$
+    \item[154.] $\displaystyle \int_0^\pi \ln(\sin x) \, dx$
+    \item[155.] $\displaystyle \int_0^\pi x \ln(\sin x) \, dx$
+    \item[156.] $\displaystyle \int_0^\infty e^{-x^2} \cos(2x) \, dx$
+    \item[157.] $\displaystyle \int_0^\infty e^{-x^2} \sin(2x) \, dx$
+    \item[158.] $\displaystyle \int_0^\infty \frac{\sin^3 x}{x^3} \, dx$
+    \item[159.] $\displaystyle \int_0^\infty \frac{\sin^4 x}{x^4} \, dx$
+    \item[160.] $\displaystyle \int_0^\infty \frac{\arctan x}{x(1+x^2)} \, dx$
+    \item[161.] $\displaystyle \int_0^{\pi/2} \ln(1 + \sin x) \, dx$
+    \item[162.] $\displaystyle \int_0^{\pi/2} \ln(1 - \sin x) \, dx$
+    \item[163.] $\displaystyle \int_0^{\pi/2} \ln(\tan x) \, dx$
+    \item[164.] $\displaystyle \int_0^{\pi/2} x \cot x \, dx$
+    \item[165.] $\displaystyle \int_0^{\pi/2} x^2 \cot x \, dx$
+    \item[166.] $\displaystyle \int_0^\pi \frac{x}{1 + \sin x} \, dx$
+    \item[167.] $\displaystyle \int_0^\pi \ln(1 - 2\alpha \cos x + \alpha^2) \, dx \quad (|\alpha| < 1)$
+    \item[168.] $\displaystyle \int_0^\pi \ln(1 - 2\alpha \cos x + \alpha^2) \, dx \quad (|\alpha| > 1)$
+    \item[169.] $\displaystyle \int_0^\infty \ln(1 + e^{-x}) \, dx$
+    \item[170.] $\displaystyle \int_0^\infty \ln(1 - e^{-x}) \, dx$
+    \item[171.] $\displaystyle \int_0^\pi \frac{x \sin x}{1 + \cos^2 x} \, dx$
+    \item[172.] $\displaystyle \int_0^\pi \frac{x \sin x}{1 - \cos x} \, dx$
+    \item[173.] $\displaystyle \int_0^\pi \frac{x \sin x}{1 + \cos x} \, dx$
+    \item[174.] $\displaystyle \int_0^\pi \frac{x \sin x}{3 + \cos^2 x} \, dx$
+    \item[175.] $\displaystyle \int_0^\pi \frac{x \sin^3 x}{1 + \cos^2 x} \, dx$
+    \item[176.] $\displaystyle \int_0^\pi \frac{x \sin^5 x}{1 + \cos^2 x} \, dx$
+    \item[177.] $\displaystyle \int_0^\pi \frac{x \tan x}{\sec x + \cos x} \, dx$
+    \item[178.] $\displaystyle \int_0^\pi \frac{x}{1 + \sin^2 x} \, dx$
+    \item[179.] $\displaystyle \int_0^\pi \frac{x \cos^2 x}{1 + \sin^2 x} \, dx$
+    \item[180.] $\displaystyle \int_0^\pi \frac{x \sin(2x)}{1 + \cos^4 x} \, dx$
+    \item[181.] $\displaystyle \int_0^{\pi/2} \frac{\ln(\sin x)}{\sin x + \cos x} \, dx$
+    \item[182.] $\displaystyle \int_0^{\pi/2} \frac{\ln(\cos x)}{\sin x + \cos x} \, dx$
+    \item[183.] $\displaystyle \int_0^{\pi/2} \frac{\ln(\tan x)}{\sin x + \cos x} \, dx$
+    \item[184.] $\displaystyle \int_0^{\pi/2} \frac{x}{\tan x + \cot x} \, dx$
+    \item[185.] $\displaystyle \int_0^{\pi/2} \frac{x^2}{\tan x + \cot x} \, dx$
+    \item[186.] $\displaystyle \int_0^{\pi/2} \ln(1 + \tan x) \, dx$
+    \item[187.] $\displaystyle \int_0^{\pi/2} \ln(1 + \cot x) \, dx$
+    \item[188.] $\displaystyle \int_0^{\pi/2} \ln(\tan x + \cot x) \, dx$
+    \item[189.] $\displaystyle \int_0^{\pi/2} \sin^2 x \ln(\sin x) \, dx$
+    \item[190.] $\displaystyle \int_0^{\pi/2} \cos^2 x \ln(\cos x) \, dx$
+    \item[191.] $\displaystyle \int_0^\infty x^p e^{-x^2} \, dx \quad (p > -1)$
+    \item[192.] $\displaystyle \int_0^\infty x^p e^{-x^3} \, dx$
+    \item[193.] $\displaystyle \int_0^\infty x^p e^{-\sqrt{x}} \, dx$
+    \item[194.] $\displaystyle \int_0^\infty e^{-x^q} \, dx \quad (q > 0)$
+    \item[195.] $\displaystyle \int_0^\infty \frac{x^m}{1 + x^n} \, dx \quad (0 < m+1 < n)$
+    \item[196.] $\displaystyle \int_0^\infty \frac{x^a \ln x}{1 + x^b} \, dx$
+    \item[197.] $\displaystyle \int_0^\infty \frac{\ln x}{1 + x^2} \, dx$
+    \item[198.] $\displaystyle \int_0^\infty \frac{\ln^2 x}{1 + x^2} \, dx$
+    \item[199.] $\displaystyle \int_0^\infty \frac{\ln x}{1 - x^2} \, dx$
+    \item[200.] $\displaystyle \int_0^\infty \frac{\ln x}{1 - x^4} \, dx$
+    \item[201.] $\displaystyle \int_0^\infty \frac{\arctan x \ln x}{1 + x^2} \, dx$
+    \item[202.] $\displaystyle \int_0^\infty \frac{\arctan^2 x}{1 + x^2} \, dx$
+    \item[203.] $\displaystyle \int_0^\infty \frac{\ln(1 + x^2)}{1 + x^2} \, dx$
+    \item[204.] $\displaystyle \int_0^\infty \frac{\ln(1 + x^4)}{1 + x^2} \, dx$
+    \item[205.] $\displaystyle \int_0^\infty \frac{\ln(\cosh x)}{\cosh x} \, dx$
+    \item[206.] $\displaystyle \int_0^\infty \frac{\ln(\sinh x)}{\sinh x} \, dx$
+    \item[207.] $\displaystyle \int_0^\infty \frac{x}{e^x - 1} \, dx$
+    \item[208.] $\displaystyle \int_0^\infty \frac{x^2}{e^x - 1} \, dx$
+    \item[209.] $\displaystyle \int_0^\infty \frac{x}{e^x + 1} \, dx$
+    \item[210.] $\displaystyle \int_0^\infty \frac{x^2}{e^x + 1} \, dx$
+    \item[211.] $\displaystyle \int_0^\infty \frac{\cos(ax)}{1 + x^2} \, dx \quad (a > 0)$
+    \item[212.] $\displaystyle \int_0^\infty \frac{x \sin(ax)}{1 + x^2} \, dx \quad (a > 0)$
+    \item[213.] $\displaystyle \int_0^\infty \frac{\cos(ax)}{1 + x^4} \, dx$
+    \item[214.] $\displaystyle \int_0^\infty \frac{x \sin(ax)}{1 + x^4} \, dx$
+    \item[215.] $\displaystyle \int_0^\infty \frac{\cos(ax)}{(x^2 + b^2)^2} \, dx$
+    \item[216.] $\displaystyle \int_0^\infty \frac{x \sin(ax)}{(x^2 + b^2)^2} \, dx$
+    \item[217.] $\displaystyle \int_0^\infty \frac{\sin(ax)}{x(x^2 + b^2)} \, dx$
+    \item[218.] $\displaystyle \int_0^\infty \frac{1 - \cos(ax)}{x^2(1 + x^2)} \, dx$
+    \item[219.] $\displaystyle \int_0^\infty \frac{\cos(ax) - \cos(bx)}{x^2} \, dx$
+    \item[220.] $\displaystyle \int_0^\infty \frac{\sin(ax) - \sin(bx)}{x} \, dx$
+    \item[221.] $\displaystyle \int_0^\infty \frac{\sin^3(ax)}{x^3} \, dx$
+    \item[222.] $\displaystyle \int_0^\infty \frac{\sin^5(ax)}{x^5} \, dx$
+    \item[223.] $\displaystyle \int_0^\infty \frac{\sin(ax) \sin(bx)}{x^2} \, dx$
+    \item[224.] $\displaystyle \int_0^\infty \frac{\sin(ax) \cos(bx)}{x} \, dx$
+    \item[225.] $\displaystyle \int_0^\infty e^{-x^2} \cos(ax) \, dx$
+    \item[226.] $\displaystyle \int_0^\infty e^{-x^2} \sin(ax) \, dx$
+    \item[227.] $\displaystyle \int_0^\infty \frac{e^{-x} \sin(ax)}{x} \, dx$
+    \item[228.] $\displaystyle \int_0^\infty \frac{e^{-x} \cos(ax)}{x} \, dx$
+    \item[229.] $\displaystyle \int_0^\infty e^{-x^2} \ln x \, dx$
+    \item[230.] $\displaystyle \int_0^\infty e^{-x^3} \ln x \, dx$
+    \item[231.] $\displaystyle \int_0^1 \frac{\ln(1 + x)}{1 + x^2} \, dx$
+    \item[232.] $\displaystyle \int_0^1 \frac{\ln(1 - x)}{1 + x^2} \, dx$
+    \item[233.] $\displaystyle \int_0^1 \frac{\ln(1 + x^2)}{1 + x} \, dx$
+    \item[234.] $\displaystyle \int_0^1 \frac{\ln(1 - x^2)}{1 + x} \, dx$
+    \item[235.] $\displaystyle \int_0^1 \frac{\arctan x}{1 + x} \, dx$
+    \item[236.] $\displaystyle \int_0^1 \frac{\arctan x}{1 - x} \, dx$
+    \item[237.] $\displaystyle \int_0^1 \ln x \ln(1 + x) \, dx$
+    \item[238.] $\displaystyle \int_0^1 \ln x \ln(1 - x) \, dx$
+    \item[239.] $\displaystyle \int_0^1 \ln x \ln(1 + x^2) \, dx$
+    \item[240.] $\displaystyle \int_0^1 \ln x \ln(1 - x^2) \, dx$
+    \item[241.] $\displaystyle \int_0^1 x^a \ln^2 x \, dx$
+    \item[242.] $\displaystyle \int_0^1 x^a \ln^3 x \, dx$
+    \item[243.] $\displaystyle \int_0^1 \frac{\ln x}{1 - x^a} \, dx$
+    \item[244.] $\displaystyle \int_0^1 \frac{\ln(1 - x)}{1 - x^a} \, dx$
+    \item[245.] $\displaystyle \int_0^1 (\ln(1 - x))^2 \, dx$
+    \item[246.] $\displaystyle \int_0^1 (\ln(1 - x))^3 \, dx$
+    \item[247.] $\displaystyle \int_0^1 \ln x \ln(1 - x) \ln(1 + x) \, dx$
+    \item[248.] $\displaystyle \int_0^1 \ln^2 x \ln(1 - x) \, dx$
+    \item[249.] $\displaystyle \int_0^1 \ln^2 x \ln(1 + x) \, dx$
+    \item[250.] $\displaystyle \int_0^1 \ln x \ln(1 - x^2) \ln(1 + x^2) \, dx$
+    \item[251.] $\displaystyle \int_0^\infty \frac{\sin(ax)}{\sinh(bx)} \, dx$
+    \item[252.] $\displaystyle \int_0^\infty \frac{\cos(ax)}{\cosh(bx)} \, dx$
+    \item[253.] $\displaystyle \int_0^\infty \frac{\sin(ax) \tanh(bx)}{x} \, dx$
+    \item[254.] $\displaystyle \int_0^\infty \cos(ax) \operatorname{sech}(bx) \, dx$
+    \item[255.] $\displaystyle \int_0^\infty \frac{x}{\sinh(ax)} \, dx$
+    \item[256.] $\displaystyle \int_0^\infty \frac{x^2}{\sinh(ax)} \, dx$
+    \item[257.] $\displaystyle \int_0^\infty \frac{x}{\cosh(ax)} \, dx$
+    \item[258.] $\displaystyle \int_0^\infty \frac{x^2}{\cosh(ax)} \, dx$
+    \item[259.] $\displaystyle \int_0^\infty \frac{\ln(\cosh x)}{\sinh(2x)} \, dx$
+    \item[260.] $\displaystyle \int_0^\infty \frac{\ln(\sinh x)}{\cosh(2x)} \, dx$
+    \item[261.] $\displaystyle \int_0^\infty \frac{\arctan(\sinh x)}{\cosh x} \, dx$
+    \item[262.] $\displaystyle \int_0^\infty \frac{\arctan(\tanh x)}{\sinh x} \, dx$
+    \item[263.] $\displaystyle \int_0^\infty \frac{\ln(1 + \tanh x)}{\cosh x} \, dx$
+    \item[264.] $\displaystyle \int_0^\infty \frac{\ln(1 + \coth x)}{\sinh x} \, dx$
+    \item[265.] $\displaystyle \int_0^\infty \frac{\sin(ax) \cos(bx)}{\sinh(cx)} \, dx$
+    \item[266.] $\displaystyle \int_0^\infty \frac{\cos(ax) \cos(bx)}{\cosh(cx)} \, dx$
+    \item[267.] $\displaystyle \int_0^\infty \frac{\sin(ax) \sin(bx)}{\tanh(cx)} \, dx$
+    \item[268.] $\displaystyle \int_0^\infty \frac{\cos(ax) \cos(bx)}{\coth(cx)} \, dx$
+    \item[269.] $\displaystyle \int_0^\infty \frac{e^{-ax} \sin(bx)}{\sinh(cx)} \, dx$
+    \item[270.] $\displaystyle \int_0^\infty \frac{e^{-ax} \cos(bx)}{\cosh(cx)} \, dx$
+    \item[271.] $\displaystyle \int_0^1 x^{a-1}(1-x)^{b-1} \ln x \, dx$
+    \item[272.] $\displaystyle \int_0^1 x^{a-1}(1-x)^{b-1} \ln(1-x) \, dx$
+    \item[273.] $\displaystyle \int_0^1 x^{a-1}(1-x)^{b-1} \ln x \ln(1-x) \, dx$
+    \item[274.] $\displaystyle \int_0^\infty x^{a-1} e^{-bx} \ln x \, dx$
+    \item[275.] $\displaystyle \int_0^\infty x^{a-1} e^{-bx} \ln^2 x \, dx$
+    \item[276.] $\displaystyle \int_0^\infty \frac{x^{a-1}}{1+x^b} \ln x \, dx$
+    \item[277.] $\displaystyle \int_0^\infty \frac{x^{a-1}}{1+x^b} \ln^2 x \, dx$
+    \item[278.] $\displaystyle \int_0^\infty e^{-x^a} \ln x \, dx$
+    \item[279.] $\displaystyle \int_0^\infty e^{-x^a} \ln^2 x \, dx$
+    \item[280.] $\displaystyle \int_0^\infty \frac{\sin(x^a)}{x^b} \, dx$ (with conditions on $a,b$)
+    \item[281.] $\displaystyle \int_0^\pi \frac{\cos(nx)}{1 - 2a \cos x + a^2} \, dx \quad (|a| < 1)$
+    \item[282.] $\displaystyle \int_0^\pi \frac{\sin(nx) \sin x}{1 - 2a \cos x + a^2} \, dx$
+    \item[283.] $\displaystyle \int_0^\pi \frac{\cos(nx) \cos x}{1 - 2a \cos x + a^2} \, dx$
+    \item[284.] $\displaystyle \int_0^\pi \frac{dx}{(a + b \cos x)^2} \quad (a > b > 0)$
+    \item[285.] $\displaystyle \int_0^\pi \frac{dx}{(a + b \sin x)^2} \quad (a > b > 0)$
+    \item[286.] $\displaystyle \int_0^\pi \frac{\cos x}{(a + b \cos x)^2} \, dx$
+    \item[287.] $\displaystyle \int_0^\pi \frac{\sin x}{(a + b \sin x)^2} \, dx$
+    \item[288.] $\displaystyle \int_0^\infty \frac{dx}{x^4 + 2ax^2 + 1}$
+    \item[289.] $\displaystyle \int_0^\infty \frac{x^2 dx}{x^4 + 2ax^2 + 1}$
+    \item[290.] $\displaystyle \int_0^\infty \frac{dx}{x^n + a^n}$
+    \item[291.] $\displaystyle \int_0^\infty \frac{x^m dx}{x^n + a^n}$
+    \item[292.] $\displaystyle \int_0^\infty \frac{\ln x}{x^n + a^n} \, dx$
+    \item[293.] $\displaystyle \int_0^\infty \frac{\arctan x}{x^n + a^n} \, dx$
+    \item[294.] $\displaystyle \int_0^\infty \frac{e^{-ax} \sin(bx)}{x} \, dx$
+    \item[295.] $\displaystyle \int_0^\infty \frac{e^{-ax} \cos(bx)}{x} \, dx$
+    \item[296.] $\displaystyle \int_0^\infty \frac{e^{-ax} - e^{-bx}}{x} \, dx$
+    \item[297.] $\displaystyle \int_0^\infty \frac{(e^{-ax} - e^{-bx}) \sin(cx)}{x} \, dx$
+    \item[298.] $\displaystyle \int_0^\infty \frac{(e^{-ax} - e^{-bx}) \cos(cx)}{x} \, dx$
+    \item[299.] $\displaystyle \int_0^\infty \frac{\sin(ax)}{x(1 + x^2)} \, dx$
+    \item[300.] $\displaystyle \int_0^\infty e^{-ax^2} \cos(bx) \, dx$
+\end{enumerate}
 \end{multicols}
 
 \end{document}
