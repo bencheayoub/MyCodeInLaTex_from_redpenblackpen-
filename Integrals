@@ -137,6 +137,29 @@
     \item $\displaystyle \int \frac{\cot(x)}{\cos(x)} \, dx$
     \item $\displaystyle \int \sin^2(x)\cot(x) \, dx$
     \item $\displaystyle \int \cos^2(x)\tan(x) \, dx$
+    \item[129.] $\displaystyle \int \frac{x^2}{\sqrt{1-x^2}} \, dx$
+    \item[130.] $\displaystyle \int \frac{\sqrt{1+x^2}}{x} \, dx$
+    \item[131.] $\displaystyle \int \frac{dx}{x\sqrt{x^2-4}}$
+    \item[132.] $\displaystyle \int e^{ax}\sin(bx) \, dx$
+    \item[133.] $\displaystyle \int e^{ax}\cos(bx) \, dx$
+    \item[134.] $\displaystyle \int \sin(\ln x) \, dx$
+    \item[135.] $\displaystyle \int \cos(\ln x) \, dx$
+    \item[136.] $\displaystyle \int \frac{dx}{x\sqrt{1-x^2}}$
+    \item[137.] $\displaystyle \int \frac{dx}{x\sqrt{1+x^2}}$
+    \item[138.] $\displaystyle \int \frac{dx}{x\sqrt{x^2-a^2}}$
+    \item[139.] $\displaystyle \int \frac{dx}{x^2\sqrt{a^2-x^2}}$
+    \item[140.] $\displaystyle \int \frac{dx}{x^2\sqrt{x^2+a^2}}$
+    \item[141.] $\displaystyle \int \frac{dx}{x^2\sqrt{x^2-a^2}}$
+    \item[142.] $\displaystyle \int \frac{\sqrt{x^2+a^2}}{x^2} \, dx$
+    \item[143.] $\displaystyle \int \frac{\sqrt{x^2-a^2}}{x^2} \, dx$
+    \item[144.] $\displaystyle \int x\sqrt{x^2+a^2} \, dx$
+    \item[145.] $\displaystyle \int x\sqrt{x^2-a^2} \, dx$
+    \item[146.] $\displaystyle \int x\sqrt{a^2-x^2} \, dx$
+    \item[147.] $\displaystyle \int \frac{x}{\sqrt{x^2+a^2}} \, dx$
+    \item[148.] $\displaystyle \int \frac{x}{\sqrt{x^2-a^2}} \, dx$
+    \item[149.] $\displaystyle \int \frac{x}{\sqrt{a^2-x^2}} \, dx$
+    \item[150.] $\displaystyle \int \frac{x^2}{\sqrt{x^2+a^2}} \, dx$
+
 \end{enumerate}
 
 \end{multicols}
