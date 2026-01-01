@@ -1,12 +1,16 @@
-\documentclass{article}
+\documentclass[10pt]{article}
 \usepackage{amsmath}
 \usepackage{multicol}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\setlist[enumerate]{noitemsep, topsep=0pt}
 
 \begin{document}
 
-\begin{multicols}{2}
-
 \section*{Integrals}
+
+\begin{multicols}{3}
+\raggedcolumns
 
 \begin{enumerate}
     \item $\displaystyle \int \tan^5(x)\sec^3(x) \, dx$
@@ -159,16 +163,16 @@
     \item[148.] $\displaystyle \int \frac{x}{\sqrt{x^2-a^2}} \, dx$
     \item[149.] $\displaystyle \int \frac{x}{\sqrt{a^2-x^2}} \, dx$
     \item[150.] $\displaystyle \int \frac{x^2}{\sqrt{x^2+a^2}} \, dx$
-
 \end{enumerate}
-
 \end{multicols}
 
 \newpage
 
 \section*{MIT Integral Bee (1981-2009)}
 
-\begin{multicols}{2}
+\begin{multicols}{3}
+\raggedcolumns
+
 \begin{enumerate}
     \item[151.] $\displaystyle \int_0^1 \frac{x^4(1-x)^4}{1+x^2} \, dx$
     \item[152.] $\displaystyle \int_0^\infty \sin(x^2) \, dx$
