@@ -11,6 +11,7 @@
 \begin{multicols}{3}
 \raggedcolumns
 
+
 \begin{enumerate}
     \item $\displaystyle \int \tan^5(x)\sec^3(x) \, dx$
     \item $\displaystyle \int \frac{\cos(2x)}{\sin(x) + \cos(x)} \, dx$
